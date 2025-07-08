@@ -181,8 +181,9 @@ export default function Home() {
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
                       <blockquote className="text-slate-800 text-lg leading-relaxed mb-3">
-                        "{quote}"
-                      </blockquote>
+  &quot;{quote}&quot;
+</blockquote>
+
                       <div className="flex items-center space-x-4 text-sm text-slate-600">
                         <span className="capitalize font-medium">Topic: {topic}</span>
                         <span>•</span>
